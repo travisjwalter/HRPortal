@@ -1,0 +1,46 @@
+{% extends 'base.html' %}
+
+{% block head %}
+<title>Onboarding</title>
+{% endblock %}
+
+{% block body %}
+<div class="main" id="general">
+    <form action="/onboarding/" method="POST">
+        <div id="titleOfForm">Onboarding Form</div>
+        <br>
+        <input type="text" name="firstName" id="firstName"
+               placeholder="First Name of New Member">
+        <br><br>
+        <br>
+        <input type="text" name="lastName" id="lastName"
+               placeholder="Last Name of New Member">
+        <br><br>
+        <br>
+        <input type="text" name="username" id="username"
+               placeholder="User Name of Member">
+        <br><br>
+        <br>
+        <input type="text" name="email" id="email"
+               placeholder="Email of New Member">
+        <br><br>
+        <br>
+        <input type="text" name="phoneNumber" id="phoneNumber"
+               placeholder="Phone Number of New Member">
+        <br><br>
+        <br>
+        <input type="text" name="major" id="major"
+               placeholder="Major of New Member">
+        <br><br>
+        <br>
+        <input type="text" name="gradeYear" id="gradYear"
+               placeholder="Graduating Year of New Member">
+        <br><br>
+        <br>
+        <input type="text" name="subteam" id="subteam"
+               placeholder="Subteam of New Member">
+        <br><br>
+        <input type="submit" value="Onboard"/>
+    </form>
+</div>
+{% endblock %}

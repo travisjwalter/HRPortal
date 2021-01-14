@@ -1,0 +1,26 @@
+{% extends 'base.html' %}
+
+{% block head %}
+<title>Leave</title>
+{% endblock %}
+
+{% block body %}
+<div class="main" id="general">
+    <p>To put a person on leave, use the form below!</p>
+    <form action="/onleave/" method="POST">
+        <input type="text" name="username" id="username"
+               placeholder="User Name of Member:" >
+        <input class = "inputButton" 
+               type="submit" value="Put On Leave"/>
+    </form>  
+  
+    <br><br>
+    <p>To take a person off of leave, use the form below!</p>
+    <form action="/offleave/" method="POST">
+        <input type="text" name="username" id="username"
+               placeholder="User Name of Member:">
+        <input class = "inputButton" 
+               type="submit" value="Take Off Leave"/>
+    </form>
+</div>
+{% endblock %}

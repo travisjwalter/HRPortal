@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+
+{% block head %}
+<title>Onboarding</title>
+{% endblock %}
+
+{% block body %}
+<div class="main" id="general">
+    <form action="/offboarding/" method="POST">
+        To Off Board a team member, use the form below!<br>
+        <input type="text" name="username" id="username"
+               placeholder="User Name of Member:">
+        <br><br>
+        <input type="submit" value="Off board"/>
+    </form>
+</div>
+{% endblock %}

@@ -1,0 +1,71 @@
+.main {
+    margin: 0 auto;
+    max-width: 800px;
+    font-family: 'Roboto';
+  	overflow:hidden;
+    text-align: center;
+}
+
+/* Index Page Styling begins */
+ul {
+  list-style: none;
+  display: inline-block;
+  
+}
+
+li {
+  display: inline-block;
+  padding-right: 40px 
+}
+
+/* Styling for Index Page Buttons */
+a {
+  background-color: #A60D0D;
+  color: white;
+  padding: 0.8em .8em;
+  text-decoration: none;
+  text-transform: uppercase;
+  border-radius: 4px;
+}
+
+a:hover {
+  background-color: #555;
+}
+
+a:active {
+  background-color: black;
+}
+
+a:visited {
+  background-color: #ccc;
+}
+
+/* Index Page Styling ends */
+/*======================================================*/
+/* Leave Page Styling begins */
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    text-transform: uppercase;
+    background-color: #A60D0D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #555;
+  }
+/* Leave Page Styling ends */
